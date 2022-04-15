@@ -10,4 +10,4 @@ check with condor_q
 
 kill with condor_rm job-id
 
-if job held, just kill, check for errors, resubmit
+if job held (or idle while there are many nodes sitting around doing nothing), just kill, check for errors/missing steps, resubmit
