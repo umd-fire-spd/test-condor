@@ -11,7 +11,8 @@ Output =./logs/output_$(cluster)_$(process).stdout
 Error  =./logs/output_$(cluster)_$(process).stderr
 Log    =./logs/output_$(cluster)_$(process).log
 
-notify_user = DrM@somewhere.world # put your email here if you want to be notified
+# put your email here if you want to be notified
+notify_user = DrM@somewhere.world
 notification = always
 
 # can request more cores, memory, etc. if allowed
